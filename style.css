@@ -1,0 +1,429 @@
+#board
+{
+	position: relative;
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	vertical-align: center;
+	margin: 0 auto;
+	margin-top: 32px;
+	background-repeat: no-repeat;
+	background-image: url('images/BoardCopy.png');
+	background-size: 500px 500px;
+}
+
+#resetBoard
+{
+	/*visibility: hidden;*/
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image: url('images/RestartCopy.png');
+	background-size: 32px 32px;
+}
+
+#switchButton
+{
+	opacity: 0.1;
+	/*position: absolute;
+	left: 0;
+	*/
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-image: url('images/SwitchButtonCopy.png');
+	background-size: 32px 32px;
+}
+
+#titleContainer
+{
+	position: relative;
+	width: 500px;
+	height: 32px;
+	margin: 0 auto;
+	margin-top: 118px;
+}
+
+#container
+{
+	position: relative;
+	/*border: 1px solid black;*/
+	width: 600px;
+	height: 700px;
+	margin: 0 auto;
+	
+	text-align: center;
+	vertical-align: center;
+}
+
+#boardConsole
+{
+	margin-left: 10px;
+	display: inline;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	color: #666;
+}
+
+h1, h2
+{
+	font-family: 'Acme', sans-serif;
+	color: #555;
+}
+
+p span
+{
+	display: block;
+}
+
+p, ul
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color: #666;
+}
+
+li {
+	color: #ffcc00;
+	list-style: square;
+	margin-left: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+}
+
+li span {
+	color: #666;
+}
+
+img
+{
+	width: 180px;
+	height: 180px;
+}
+
+.left
+{
+	text-align: left;
+	padding-left: 25px;
+}
+
+.boardBox
+{
+	padding: 10px 10px 10px 0px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+	background-repeat: no-repeat;
+	/*background-image: url('images/xMark.png');*/
+	background-image: none;
+	background-size: 140px 140px;
+}
+
+.box
+{
+	opacity: 0.8;
+	font-size: 0;
+	margin: 0 auto;
+	display: inline-block;
+	/*border: 1px solid gray;*/
+	width: 180px;
+	height: 180px;
+}
+
+#contactContent
+{
+
+}
+
+#iOSAvailable
+{
+	position: absolute;
+	bottom: 300px;
+	left: 30px;
+	width: 150px;
+	height: 51px;
+	background-repeat: no-repeat;
+	background-image: url('images/iOSAvailableCopy.png');
+	background-size: 150px 51px;
+}
+
+#taxImage
+{
+	display: inline-block;
+	width: 500px;
+	height: 320px;
+	background-repeat: no-repeat;
+	background-image: url('images/TaxImage01.png');
+	background-size: 500px 320px;
+}
+
+#symbolMatchStart
+{
+	vertical-align: top;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image: url('images/SymbolMatchLogoCopy.png');
+	background-size: 32px 32px;
+}
+
+#symbolMatchImage
+{
+	display: inline-block;
+	width: 240px;
+	height: 520px;
+	background-repeat: no-repeat;
+	background-image: url('images/SymbolMatchImage01.png');
+	background-size: 240px 520px;
+}
+
+#scrapMetalTitle
+{
+	width: 600px;
+	height: 71px;
+	background-repeat: no-repeat;
+	background-image: url('images/ScrapMetalTitleCopy.png');
+	background-size: 600px 71px;
+}
+
+#scrapMetalImage
+{
+	position: absolute;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+	z-index: -1;
+	display: inline-block;
+	width: 595px;
+	height: 638px;
+	background-repeat: no-repeat;
+	background-image: url('images/Ralphie.png');
+	background-size: 595px 638px;
+}
+
+#roboticsImage
+{
+	display: inline-block;
+	width: 600px;
+	height: 280px;
+	background-repeat: no-repeat;
+	background-image: url('images/RoboLoco.png');
+	background-size: 600px 280px;
+	
+}
+
+#jmFirstImage
+{
+	display: inline-block;
+	width: 240px;
+	height: 220px;
+	background-repeat: no-repeat;
+	background-image: url('images/JMScriptImage01.png');
+	background-size: 240px 220px;
+}
+
+#jmSecondImage
+{
+	display: inline-block;
+	width: 240px;
+	height: 220px;
+	background-repeat: no-repeat;
+	background-image: url('images/JMScriptImage02.png');
+	background-size: 240px 220px;
+}
+
+#bioImage
+{
+	display: inline-block;
+	width: 180px;
+	height: 240px;
+	/*border: 1px solid red;*/
+	background-repeat: no-repeat;
+	background-image: url('images/bioImageCopy.png');
+	background-size: 180px 240px;
+}
+
+.leftTextBlock
+{
+	text-align: left;
+	position: absolute;
+	width: 250px;
+}
+
+.rightTextBlock
+{
+	width: 250px;
+	text-align: left;
+	position: absolute;
+	right: 0;
+	
+}
+
+.textBlockSm
+{
+	text-align: left;
+	padding-left: 10px;
+	display: inline-block;
+	width: 180px;
+	vertical-align: top;
+}
+
+.textBlock
+{
+	text-align: left;
+	padding-left: 10px;
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+}
+
+.bioTextBlock
+{
+	margin-left: -100px;
+	text-align: left;
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+}
+
+.fullTextBlock
+{
+	text-align: left;
+	padding-left: 10px;
+	display: inline-block;
+	width: 540px;
+	vertical-align: top;
+}
+
+#pbJMScript
+{
+	background-image: url('images/PlayButtonJMScriptCopy.png');
+}
+
+#pbRobotics
+{
+	background-image: url('images/PlayButtonRoboticsCopy.png');
+}
+
+#pbScrapMetal
+{
+	background-image: url('images/PlayButtonScrapMetalCopy.png');
+}
+
+#pbSymbolMatch
+{
+	background-image: url('images/PlayButtonSymbolMatchCopy.png');
+}
+
+#pbTax
+{
+	background-image: url('images/PlayButtonTaxCopy.png');
+}
+
+.playButton
+{
+	opacity: 0.6;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100px;
+	height: 40px;
+	vertical-align: top;
+	background-repeat: no-repeat;
+	background-size: 100px 40px;
+}
+
+a
+{
+	color: inherit;
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+
+#contactToggle
+{
+	opacity: 0.85;
+}
+
+a#contactToggle:clicked {
+
+	color: #996699;
+
+}
+
+a#contactToggle:link {
+	
+	color: #663399;
+
+}
+
+a#contactToggle:visited{
+	
+	color: #663399;
+	
+}
+
+a#contactToggle:hover {
+	color: #996699;
+    text-decoration: none;
+}
+
+a#contactToggle:active {
+	color: #996699;
+    text-decoration: none;
+}
+
+#personal
+{
+	background-image: url('images/PersonalLogoCopy.png');
+	background-size: 180px 180px;
+}
+#jmscript
+{
+	background-image: url('images/JMScriptLogoCopy.png');
+	background-size: 180px 180px;
+}
+#robotics
+{
+	background-image: url('images/RoboticsLogoCopy.png');
+	background-size: 180px 180px;
+}
+#scrapMetal
+{
+	background-image: url('images/ScrapMetalLogoCopy.png');
+	background-size: 180px 180px;
+}
+#symbolMatch
+{
+	background-image: url('images/SymbolMatchLogoCopy.png');
+	background-size: 180px 180px;
+}
+#tax
+{
+	background-image: url('images/TaxLogoCopy.png');
+	background-size: 180px 180px;
+}
+#github
+{
+	background-image: url('images/GitHubLogoCopy.png');
+	background-size: 180px 180px;
+}
+#processing
+{
+	background-image: url('images/ProcessingLogoCopy.png');
+	background-size: 180px 180px;
+}
+#aboutdotme
+{
+	background-image: url('images/AboutMeLogoCopy.png');
+	background-size: 180px 180px;
+}
