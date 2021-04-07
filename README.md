@@ -6,4 +6,4 @@
 
 <a name="overview"></a>
 ## Overview
-The AI can beat you if you don't pay attention, but tic tac toe is pretty simple so I wouldn't worry aobut it
+The AI can beat you if you don't pay attention, but tic tac toe is pretty simple so I wouldn't worry about it.
